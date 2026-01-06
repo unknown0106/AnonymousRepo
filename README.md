@@ -28,8 +28,9 @@ pip install evalscope==1.3.0
 ### Deploy Qwen-2.5-Math Evaluation Framework
 ```bash
 git clone https://github.com/QwenLM/Qwen2.5-Math
-
+ 
 ```
+> Please install the relevant dependency packages according to the Qwen2.5-Math project.
 
 
 ## Evaluation Configuration
@@ -42,8 +43,8 @@ VLLM_USE_MODELSCOPE=True CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m vllm.ent
 python eval_aime24_aime25_math500.py
 
 # evaluation for OlympiadBench
-mv AnonymousRepo/eval_olympiadbench.sh  Qwen2.5-Math/sh/
-cd Qwen2.5-Math
+mv AnonymousRepo/eval_olympiadbench.sh  Qwen2.5-Math/sh/evaluation
+cd Qwen2.5-Math/evaluation
 
 ## Start evaluation
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash sh/eval_olympiadbench.sh "qwen25-math-cot" $MODEL_PATH 32768 

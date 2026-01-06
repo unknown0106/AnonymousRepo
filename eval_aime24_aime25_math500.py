@@ -1,6 +1,6 @@
 from evalscope import TaskConfig, run_task
 task_config = TaskConfig(
-    api_url='http://0.0.0.0:8802/v1/chat/completions',  # 推理服务地址
+    api_url='http://0.0.0.0:8802/v1/chat/completions', 
     model='qwen2.5-14b-instruct',  
     eval_type='openai_api',  
     datasets=['aime24', 'aime25', 'math_500'], 

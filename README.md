@@ -41,7 +41,6 @@ VLLM_USE_MODELSCOPE=True CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m vllm.ent
 python eval_aime24_aime25_math500.py
 
 # evaluation for OlympiadBench
-cd ..
 mv eval_olympiadbench.sh  Qwen2.5-Math/sh/
 cd Qwen2.5-Math
 

@@ -6,9 +6,8 @@ Due to GitHub's 2GB file size limit for individual files, we were unable to uplo
 
 ### Prerequisites
 ```bash
-# Clone the model repository
-git clone https://www.modelscope.cn/unknown0106/AnonymousModel.git   # 下载模型
-git clone https://github.com/unknown0106/AnonymousRepo.git  # 下载本仓库
+git clone https://www.modelscope.cn/unknown0106/AnonymousModel.git   # Clone the model repository
+git clone https://github.com/unknown0106/AnonymousRepo.git  # Clone the code repository
 ```
 
 ### Create Conda Environment

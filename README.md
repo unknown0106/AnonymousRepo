@@ -7,7 +7,7 @@ Due to GitHub's 2GB file size limit for individual files, we were unable to uplo
 ### Prerequisites
 ```bash
 # Clone the model repository
-git clone https://www.modelscope.cn/unknown0106/AnonymousRepo.git
+git clone https://www.modelscope.cn/unknown0106/AnonymousModel.git
 ```
 
 ### Create Conda Environment
@@ -33,6 +33,7 @@ git clone https://github.com/QwenLM/Qwen2.5-Math
 
 
 ## Evaluation Configuration
+git clone https://github.com/unknown0106/AnonymousRepo.git 
 ```bash
 # evaluation for AIME24, AIME25, and MATH500
 ## start server

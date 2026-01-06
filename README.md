@@ -7,7 +7,8 @@ Due to GitHub's 2GB file size limit for individual files, we were unable to uplo
 ### Prerequisites
 ```bash
 # Clone the model repository
-git clone https://www.modelscope.cn/unknown0106/AnonymousModel.git
+git clone https://www.modelscope.cn/unknown0106/AnonymousModel.git   # 下载模型
+git clone https://github.com/unknown0106/AnonymousRepo.git  # 下载本仓库
 ```
 
 ### Create Conda Environment
@@ -33,7 +34,7 @@ git clone https://github.com/QwenLM/Qwen2.5-Math
 
 
 ## Evaluation Configuration
-git clone https://github.com/unknown0106/AnonymousRepo.git 
+ 
 ```bash
 # evaluation for AIME24, AIME25, and MATH500
 ## start server
@@ -42,7 +43,7 @@ VLLM_USE_MODELSCOPE=True CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m vllm.ent
 python eval_aime24_aime25_math500.py
 
 # evaluation for OlympiadBench
-mv eval_olympiadbench.sh  Qwen2.5-Math/sh/
+mv AnonymousRepo/eval_olympiadbench.sh  Qwen2.5-Math/sh/
 cd Qwen2.5-Math
 
 ## Start evaluation

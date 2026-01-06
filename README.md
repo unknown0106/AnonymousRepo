@@ -42,7 +42,7 @@ python eval_aime24_aime25_math500.py
 
 # evaluation for OlympiadBench
 cd ..
-mv eval_olympiadbench.sh  Qwen2.5-Math/
+mv eval_olympiadbench.sh  Qwen2.5-Math/sh/
 cd Qwen2.5-Math
 
 ## Start evaluation

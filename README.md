@@ -28,7 +28,6 @@ pip install evalscope==1.3.0
 ### Deploy Qwen-2.5-Math Evaluation Framework
 ```bash
 git clone https://github.com/QwenLM/Qwen2.5-Math
- 
 ```
 > Please install the relevant dependency packages according to the Qwen2.5-Math project.
 
